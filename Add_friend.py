@@ -30,7 +30,7 @@ def add_friend():
            new_friend['name'] = new_friend['salutation'] + " " + new_friend['name']
            temp_variable = False
         else:
-            print "Please provide correct saluttion."
+            print "Ooopssss! Find your gender.."
     while True:
         try:
             new_friend['age'] = int(raw_input("Age? "))# converting users input to integer (typecasting)
