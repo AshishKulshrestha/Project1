@@ -38,7 +38,7 @@ def send_message():
                 elif text.__eq__('cute'):
                     print "Farah is the cutest girl i have ever met"
                 elif text.__eq__('pyari'):
-                    print "One word for Farah, Bhut pyari hai yaar"
+                    print "One sentence for Farah, Bhut pyari hai yaar"
 
                 Steganography.encode(original_image, output_image, text)
 
